@@ -1,0 +1,28 @@
+{
+  "private": "false",
+  "description": "An example project for NextAuth.js with Next.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "v1",
+    "@next-auth/mongodb-adapter": "^1.1.1",
+    "mongodb": "^5.1.0",
+    "next": "latest",
+    "next-auth": "^4.20.1",
+    "nodemailer": "^6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "^18.0.15",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4"
+  }
+}
